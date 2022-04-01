@@ -1,0 +1,112 @@
+header{
+    background:#645432;
+    padding: 25px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+nav{
+    position:absolute;
+    top:0px;
+    right: 0%;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+nav li {
+   display: inline; 
+   margin:0 0 0 40px;
+}
+
+nav a{
+    text-transform: uppercase;
+    coloR: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: #C719;
+    text-decoration: underline;
+}
+
+.cortes{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.cortes li{
+    display: inline-block;
+    text-align: center;
+    width:33%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.cortes li:hover{
+    border-color:#C78c19;
+}
+.cortes li:active{
+    border-color:#088C19;
+}
+.cortes li:hover h2{
+    font-size: 34px;
+}
+
+
+.cortes h2{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.produto-descricao{
+    font-weight: bold;
+    font-size: 17;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background:#55472b;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin:50px 0;
+
+}
+
+form label,form p {
+    display: block;
+    font-size: 20px;
+    margin: 15 0 10px;
+}
+.input-padrão{
+    display: block;
+    margin-block-start: 20px;
+    padding:10px 25px;
+    width: 50%; 
+
+} 
+.checkbox{
+    margin:20px 0;
+}
